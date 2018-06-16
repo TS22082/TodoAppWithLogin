@@ -1,0 +1,42 @@
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.input {
+  font-size: 1.5em;
+  margin-left: 10%;
+  width: 70%;
+  font-size: 1.5em;
+  color: white;
+  letter-spacing: 1.0025em;
+}
+
+.mdl-textfield__input {
+  letter-spacing: 2px;
+}
+.mdl-textfield__label {
+  color: white;
+}
+i{
+  color: #34495e;
+}
+table {
+  width: 80%;
+}
+td {
+  font-size: 1.25em;
+}
+
+p:nth-child(2n + 2) {
+  background-color: #f39c12;
+}
+
+p {
+  
+  width: 80%;
+  font-size: 1.25em;
+  padding: 3% 0 3% 3%;
+  background-color: rgb(56, 56, 56);
+  color: white;
+}

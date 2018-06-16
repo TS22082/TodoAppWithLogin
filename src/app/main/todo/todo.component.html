@@ -1,0 +1,28 @@
+<div class="container">
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label input">
+      <input #todoText class="mdl-textfield__input" type="text" id="sample3">
+      <label class="mdl-textfield__label" for="sample3">Todo...</label>
+    </div>
+    <button (click)="addTodo(todoText.value); todoText.value='';" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <i class="material-icons">add</i>
+    </button>
+  </form>
+
+  <!--
+  <table class="mdl-data-table mdl-js-data-table">
+    <tbody>
+      <tr *ngFor="let todo of todos; let i = index;" (click)="removeTodo(i)"> 
+        <td class="mdl-data-table__cell--non-numeric">
+          {{ todo.task }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  -->
+  <div class="list">
+    <p *ngFor="let todo of todos; let i = index;" (click)="removeTodo(i)"> {{ todo.task }} </p>
+  </div>
+
+</div>
+
