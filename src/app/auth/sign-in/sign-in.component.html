@@ -1,7 +1,7 @@
 <div class="container">
-  <form (ngSubmit)="onSignIn(f)" #f="ngForm">
+  <form (ngSubmit)="onSignIn(f)" #f="ngForm" class="signInForm">
     <input type="email" id="email" name="email" ngModel>
     <input type="password" id="password" name="password" ngModel>
-    <button type="submit">Sign in</button>
+    <button type="submit" class="loginBtn">Sign in</button>
   </form>
 </div>

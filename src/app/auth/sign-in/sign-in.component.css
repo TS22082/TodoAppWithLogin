@@ -1,0 +1,47 @@
+.container {
+  margin-top: 10%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  grid-template-areas: 
+  " . f . ";
+}
+
+.signInForm {
+  grid-area: f;
+}
+
+.signInForm {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+  " . e . "
+  " . p . "
+  " . l . ";
+}
+
+#email {
+  grid-area: e;
+  font-size: 1.25em;
+  text-align: center;
+  border-color: #f39c12;
+  border-style: solid;
+  border-bottom-style: none;
+  height: 2.25em;
+}
+
+#password {
+  grid-area: p;
+  font-size: 1.25em;
+  text-align: center;
+  border-style: solid;
+  border-bottom-style: none;
+  border-color: #f39c12;
+}
+
+.loginBtn {
+  grid-area: l;
+  border-color: #f39c12;
+  border-style: solid;
+}
