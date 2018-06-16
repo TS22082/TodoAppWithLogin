@@ -9,10 +9,11 @@ import * as firebase from 'firebase';
 export class AppComponent {
   title = 'app';
 
+  // tslint:disable-next-line:use-life-cycle-interface
   ngOnInit() {
     firebase.initializeApp({
-      apiKey: 'AIzaSyDcILO6JhNH6xa9tGXKbxYYo4kW_iMX-fI',
-      authDomain: 'firsttut-ab9e0.firebaseapp.com'
+      apiKey: 'AIzaSyACWwzswQJGda-tNbgGXtlxtnt9AnxmDcs',
+      authDomain: 'fir-angular-e9a48.firebaseapp.com'
     });
   }
 }
