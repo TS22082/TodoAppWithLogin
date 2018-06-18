@@ -1,4 +1,4 @@
-# DashBoard App
+# Todo App with Firebase Login and real time DB
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
